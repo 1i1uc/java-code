@@ -1,0 +1,24 @@
+public static void main (String[] args) {
+        int x = 0;
+        int y = 0;
+        int z = 0;
+        Scanner in = new Scanner(System.in);
+        x = in.nextInt();
+        y = in.nextInt();
+        z = in.nextInt();
+        if(x>y){
+            if(x>z){
+                System.out.println("max = x");
+            }else{
+                System.out.println("max = z");
+            }
+        } else{
+                if (y < z) {
+                    System.out.println("max = z");
+                } else {
+                    System.out.println("max = y");
+                }
+
+                }
+            }
+        }
